@@ -1,0 +1,86 @@
+﻿Xe lúc khởi hành:
+- Có 5/10 hành khách muốn đến biển
+- Mỗi hành khách có ngẫu nhiên số tiền từ 150k-300k
+- Tiền vé xe bus mỗi người là 50k
+- Có ngẫu nhiên từ 1 -> 5 hành khách có thẻ thành viên
+- Điện còn lại trong xe là 100%
+- Độ hao mòn của xe là 0%
+- Xe khởi hành lúc 6h
+- Tài xế và hành khách đang trong trạng thái tốt nhất
+
+Mô tả chú thích và điểm thưởng:
+- Điểm hành khách:
+	+ Mỗi khách hàng đến đúng điểm: +100đ
+	+ Mỗi khách hàng đến sai điểm:	-100đ
+	+ Mỗi khách hàng có tình trạng và sức khỏe >80%: +50đ
+- Điểm xe:
+	+ Độ hao mòn <50%:  +50đ
+	+ Độ hao mòn <=20%:  +100đ
+	+ Độ hao mòn >=50%: -50đ
+	+ Độ hao mòn >= 80%: -100đ
+	+ Thời gian về đích...
+
+- Các chỉ số xuyên suốt đường đi:
+	+ Khu vực 1:
+		* Mất 1% hao mòn xe mỗi lần di chuyển đến 1 điểm
+		* Mất 1% tinh thần mỗi khách hàng mỗi lần di chuyển
+	+ Khu vực 2:
+		* Mất 2% hao mòn xe mỗi lần di chuyển đến 1 điểm
+		* Mất 2% tinh thần mỗi khách hàng mỗi lần di chuyển
+	+ Khu vực 3:
+		* Mất 4% hao mòn xe mỗi lần di chuyển đến 1 điểm
+		* Mất 4% tinh thần mỗi khách hàng mỗi lần di chuyển
+	+ Khu vực 4:
+		* Mất 2% hao mòn xe mỗi lần di chuyển đến 1 điểm
+		* Mất 2% tinh thần mỗi khách hàng mỗi lần di chuyển
+- Các tính năng:
+	+ Trạm đón khách: Mỗi trạm có 5 khách với 3 nhóm muốn đi núi, quốc lộ hay biển
+					  người chơi được chọn nhận khách nào lên xe, xe chở tối đa 10 người cùng lúc
+	+ Trạm sạc: Sạc lại điện của xe, mất 1 phút cho mỗi 1% pin sạc lại, người chơi có thể chọn sạc bao nhiêu tùy thích
+	+ Trạm thu phí: 
+		* Trạm thu phí ở KV1 mất 50k mỗi người (không tính tài xế)
+		* Trạm thu phí ở KV2 3 mất 75k mỗi người (Không tính tài xế)
+	+ Trạm tích điểm: Tích điểm cho thẻ thành viên
+		* Thẻ thành viên chưa được tích điểm sẽ giảm 10% phí ở trạm thu phí
+		* Thẻ thành viên đã được tích điểm sẽ giảm 25% phí ở trạm thu phí
+	+ Khu du lịch sẽ tăng tinh thần hành khách
+		* Nếu số lượng nữ giới > nam giới: Tăng 20% tinh thần toàn bộ hành khách
+		* Nếu số lượng nữ giới < nam giới: Tăng 10% tinh thần toàn bộ hành khách
+	+ Suối nước nóng sẽ tăng tinh thần hành khách 50%
+	+ Điểm và đường có quang cảnh đẹp sẽ tăng 20% tinh thần khách hàng
+	+ Bệnh viện sẽ tăng 30 điểm tinh thần cho khách hàng (50k mỗi người) 
+	+ Trạm sửa xe sẽ giảm 50% hao mòn xe
+	+ Hotel cho phép giảm 1 lượng khách hàng tùy ý (Giảm bất kỳ ai)
+		* -50 điểm cho mỗi khách hàng bị trả tại khách sạn
+	+ Đường kẹt xe sẽ kẹt xe vào lúc 10h-12h sáng và 3h-5h chiều (Tăng x2 thời gian cần để qua đoạn đường này)
+	+ Cao tốc:
+		* kẹt cao tốc lúc 10h-12h sáng và 3h-5h chiều (Tăng x2 thời gian cần để qua đoạn đường này)
+		* không kẹt cao tốc các khung giờ còn lại (Giảm x2.5 thời gian cần để qua đoạn đường này)
+	+ Đường có thể xảy ra tai nạn
+		* Có 25% tỉ lệ xảy ra tai nạn nếu số lượng nam > số lượng nữ làm bị thương ngẫu nhiên số hành khách trên xe
+		* Có 30% tỉ lệ xảy ra tai nạn nếu số lượng nam = số lượng nữ làm bị thương ngẫu nhiên số hành khách trên xe
+		* Có 35% tỉ lệ xảy ra tia nạn nếu số lượng nam < số lượng nữ làm bị thương ngẫu nhiên số hành khách trên xe
+		* Nếu xảy ra tai nạn tăng (số lượng hành khách x 5)% hao mòn xe
+	+ Đường đèo:
+		* Có 20% tỉ lệ xảy ra tai nạn nếu số lượng nam > số lượng nữ làm bị thương ngẫu nhiên số hành khách trên xe
+		* Có 25% tỉ lệ xảy ra tai nạn nếu số lượng nam = số lượng nữ làm bị thương ngẫu nhiên số hành khách trên xe
+		* Có 30% tỉ lệ xảy ra tia nạn nếu số lượng nam < số lượng nữ làm bị thương ngẫu nhiên số hành khách trên xe
+		* Nếu xảy ra tai nạn tăng (số lượng hành khách x 8)% hao mòn xe
+		* Nếu không xảy ra tai nạn tăng 10% hao mòn xe
+		* Giảm x2 thời gian cần để qua đèo
+	+ Đường hầm:
+		* Đường hầm nguy hiểm(Chọn đi nhanh hay chậm):
+			` Nếu đi nhanh: Có 50% khả năng xảy ra tai nạn
+			` Nếu đi chậm: Có 25% xảy ả tai nạn
+		* Đường hầm không nguy hiểm
+			` Nếu đi nhanh: Có 5% khả năng xảy ra tai nạn
+			` Nếu đi chậm: có 1% khả năng xảy ra tai nạn
+		* Nếu xảy ra tai nạn, lập tức thua
+		* Nếu không xảy ra tai nạn, giảm x3 thời gian cần để qua hầm
+	+ Đường cát: Hao mòn xe tăng 10%, tinh thần hành khách tăng 20%
+
+- Khu vực 1: 2->9
+- Khu vực 2: 13->21
+- Khu vực 3: 23->31
+- Khu vực 4: 33->42
+- Các nút 10 11 12 22 32 là nút nằm giữa ranh giới

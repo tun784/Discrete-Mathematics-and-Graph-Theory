@@ -1,0 +1,11 @@
+			 Bang Xep hang:
+1. diem dat duoc :1600	 ten nguoi choi: taosugoi
+2. diem dat duoc :1576	 ten nguoi choi: Test02
+3. diem dat duoc :1556	 ten nguoi choi: nanisugoi
+4. diem dat duoc :1236	 ten nguoi choi: v
+5. diem dat duoc :1150	 ten nguoi choi: loisugoi
+6. diem dat duoc :1046	 ten nguoi choi: GameNayDe
+7. diem dat duoc :976	 ten nguoi choi: Test01
+8. diem dat duoc :800	 ten nguoi choi: div(j)
+9. diem dat duoc :700	 ten nguoi choi: ProGamer69420
+Thu hang cua taosugoi lan choi  la 1
